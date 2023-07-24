@@ -38,12 +38,12 @@ C -->|bundle| D[esm];
 C -->|bundle| E[deno];
 C -->|bundle| F[umd];
 
-click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/to-circular-iterator"
-click B href "https://github.com/stdlib-js/array-to-circular-iterator/tree/main"
-click C href "https://github.com/stdlib-js/array-to-circular-iterator/tree/production"
-click D href "https://github.com/stdlib-js/array-to-circular-iterator/tree/esm"
-click E href "https://github.com/stdlib-js/array-to-circular-iterator/tree/deno"
-click F href "https://github.com/stdlib-js/array-to-circular-iterator/tree/umd"
+%% click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/to-circular-iterator"
+%% click B href "https://github.com/stdlib-js/array-to-circular-iterator/tree/main"
+%% click C href "https://github.com/stdlib-js/array-to-circular-iterator/tree/production"
+%% click D href "https://github.com/stdlib-js/array-to-circular-iterator/tree/esm"
+%% click E href "https://github.com/stdlib-js/array-to-circular-iterator/tree/deno"
+%% click F href "https://github.com/stdlib-js/array-to-circular-iterator/tree/umd"
 ```
 
 [stdlib-url]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/array/to-circular-iterator
