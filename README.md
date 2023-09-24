@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import circarray2iterator from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-to-circular-iterator@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-to-circular-iterator/tags). For example,
+
+```javascript
 import circarray2iterator from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-to-circular-iterator@v0.1.0-esm/index.mjs';
 ```
 
@@ -272,7 +277,7 @@ var count = ctx.count;
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
 import inmap from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inmap@esm/index.mjs';
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import circarray2iterator from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-to-circular-iterator@v0.1.0-esm/index.mjs';
+import circarray2iterator from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-to-circular-iterator@esm/index.mjs';
 
 function scale( v, i, n ) {
     return v * n;
