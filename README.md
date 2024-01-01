@@ -45,30 +45,38 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/array-to-circular-iterator
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
+To use in Observable,
+
 ```javascript
-var circarray2iterator = require( '@stdlib/array-to-circular-iterator' );
+circarray2iterator = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-to-circular-iterator@umd/browser.js' )
+```
+
+To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
+
+```javascript
+var circarray2iterator = require( 'path/to/vendor/umd/array-to-circular-iterator/index.js' )
+```
+
+To include the bundle in a webpage,
+
+```html
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-to-circular-iterator@umd/browser.js"></script>
+```
+
+If no recognized module system is present, access bundle contents via the global scope:
+
+```html
+<script type="text/javascript">
+(function () {
+    window.circarray2iterator;
+})();
+</script>
 ```
 
 #### circarray2iterator( src\[, options]\[, mapFcn\[, thisArg]] )
@@ -279,11 +287,16 @@ var count = ctx.count;
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var Float64Array = require( '@stdlib/array-float64' );
-var inmap = require( '@stdlib/utils-inmap' );
-var randu = require( '@stdlib/random-base-randu' );
-var circarray2iterator = require( '@stdlib/array-to-circular-iterator' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-inmap@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-to-circular-iterator@umd/browser.js"></script>
+<script type="text/javascript">
+(function () {
 
 function scale( v, i, n ) {
     return v * n;
@@ -307,6 +320,11 @@ while ( true ) {
     }
     console.log( v.value );
 }
+
+})();
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -405,13 +423,13 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/array-to-circular-iterator/main/LICENSE
 
-[@stdlib/array/complex64]: https://github.com/stdlib-js/array-complex64
+[@stdlib/array/complex64]: https://github.com/stdlib-js/array-complex64/tree/umd
 
 <!-- <related-links> -->
 
-[@stdlib/array/to-iterator]: https://github.com/stdlib-js/array-to-iterator
+[@stdlib/array/to-iterator]: https://github.com/stdlib-js/array-to-iterator/tree/umd
 
-[@stdlib/array/to-strided-iterator]: https://github.com/stdlib-js/array-to-strided-iterator
+[@stdlib/array/to-strided-iterator]: https://github.com/stdlib-js/array-to-strided-iterator/tree/umd
 
 <!-- </related-links> -->
 
