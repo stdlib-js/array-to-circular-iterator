@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import circarray2iterator from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-to-circular-iterator@esm/index.mjs';
+import circarray2iterator from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-to-circular-iterator@v0.2.0-esm/index.mjs';
 ```
 
 #### circarray2iterator( src\[, options]\[, mapFcn\[, thisArg]] )
@@ -272,7 +272,7 @@ var count = ctx.count;
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@esm/index.mjs';
 import inmap from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-inmap@esm/index.mjs';
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import circarray2iterator from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-to-circular-iterator@esm/index.mjs';
+import circarray2iterator from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-to-circular-iterator@v0.2.0-esm/index.mjs';
 
 function scale( v, i, n ) {
     return v * n;
