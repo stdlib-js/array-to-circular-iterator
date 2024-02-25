@@ -54,7 +54,7 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
-circarray2iterator = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-to-circular-iterator@umd/browser.js' )
+circarray2iterator = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/array-to-circular-iterator@v0.2.1-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -66,7 +66,7 @@ var circarray2iterator = require( 'path/to/vendor/umd/array-to-circular-iterator
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-to-circular-iterator@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-to-circular-iterator@v0.2.1-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -294,7 +294,7 @@ var count = ctx.count;
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-inmap@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-to-circular-iterator@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-to-circular-iterator@v0.2.1-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
